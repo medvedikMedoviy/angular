@@ -8,7 +8,7 @@ random<h1 align="center">Angular - The modern web developer's platform</h1>
   <br>
 </p>
 
-<p align="center">
+<p align="center title">
   <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
   <br>
 </p>
