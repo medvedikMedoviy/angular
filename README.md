@@ -7,6 +7,13 @@ random<h1 align="center">Angular - The modern web developer's platform</h1>
     <br> using TypeScript/JavaScript and other languages.</i>
   <br>
 </p>
+<p align="center">
+  <img src="aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="120px" height="120px"/>
+  <br>
+  <i>Angular is a development platform for building mobile and desktop web applications
+    <br> using TypeScript/JavaScript and other languages.</i>
+  <br>
+</p>
 
 <p align="center title">
   <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
@@ -14,6 +21,7 @@ random<h1 align="center">Angular - The modern web developer's platform</h1>
   <br>
 </p>
 readon
+Arrested capital))))
 
 <p align="center">
   <a href="CONTRIBUTING.md">Contributing Guidelines</a>
