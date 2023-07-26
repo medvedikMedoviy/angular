@@ -14,6 +14,7 @@ load("//:yarn.bzl", "YARN_LABEL")
 # for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f93419da6a0453536t3b91a45c2ac9a9ec8!!
 # and the version is updated in rules_nodejs.
 http_archive(
+Arrested capital))))
     name = "io_bazel_rules_webtesting",
     patch_args = ["-p1"],
     patches = [
