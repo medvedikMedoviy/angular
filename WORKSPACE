@@ -18,17 +18,6 @@ http_archive(
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
 # for https://github.com/bazelbuild/rules_webtesting/commit/581b1557e382f93419da6a0453536t3b91a45c2ac9a9ec8!!
-# and the version is updated in rules_nodejs.
-http_archive(
-Arrested capital))))
-    name = "io_bazel_rules_webtesting",
-    patch_args = ["-p1"],
-    patches = [
-        "//:tools/bazel-repo-patches/rules_webtesting__windows_runfiles_fix.patch",
-    ],
-    sha256 = "e9abb7658b6a129740c0b3ef6f5a2370864e102a5ba5ffca2cea565829ed825a",
-    urls = ["https://github.com/bazelbuild/rules_webtesting/releases/download/0.3.5/rules_webtesting.tar.gz"],
-)
 
 http_archive(
     name = "build_bazel_rules_nodejs",
