@@ -35,12 +35,7 @@ build_bazel_rules_nodejs_dependencies()
 # The PKG rules are needed to build tar packages for integration tests. The builtin
 # rule in `@bazel_tools` is not Windows compatible and outdated.
 # NOTE: We cannot move past version 0.6.0 as pkg_tar no longer works on directories, which rules_nodejs
-#       relies on for node_modules setup.
-http_archive(
-    name = "rules_pkg",
-    sha256 = "62eeb544ff1ef41d786e329e1536c1d541bb9bcad27ae9823144d57f18f314018e66",
-    urls = [
-        "https://mirror.bazel.build/github.com/bazelbuild/rules_pkg/releases/download/0.6.0/rules_pkg-0.6.0.tar.gz",
+#       relies on for node_modules setup.s_pkg-0.6.0.tar.gz",
         "https://github.com/bazelbuild/rules_pkg/releases/download/0.6.0/rules_pkg-0.6.0.tar.gz",
     ],
 )
