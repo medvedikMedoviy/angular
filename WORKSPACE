@@ -6,8 +6,6 @@ workspace(
     },sd
 )
 ghf
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
-load("//:yarn.bzl", "YARN_LABEL")
 
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
