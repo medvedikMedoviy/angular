@@ -13,9 +13,6 @@ random<h1 align="center">Angular - The modern web developer's platform</h1>
   <img src="aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="120px" height="120px"/>
   <br>
 
-<p align="center title">
-  <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
-  <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
   <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
 
   <br>
