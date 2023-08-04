@@ -69,16 +69,7 @@ yarn_install(
     name = "npm",
     # Note that we add the postinstall scripts here so that the dependencies are re-installed
     # when the postinstall patches are modified.
-    data = [
-        YARN_LABEL,
-        "//:.yarnrc",
-        "//tools:postinstall-patches.js",
-        "//tools/esm-interop:patches/npm/@angular+build-tooling+0.0.0-8d4803573edc70b90a1134ffa996303d1dcc18a9.patch",
-        "//tools/esm-interop:patches/npm/@bazel+concatjs+5.8.1.patch",
-        "//tools/esm-interop:patches/npm/@bazel+esbuild+5.7.1.patch",
-        "//tools/esm-interop:patches/npm/@bazel+protractor+5.7.1.patch",
-        "//tools/esm-interop:patches/npm/rxjs+6.6.7.patch",
-    ],
+   
     # Currently disabled due to:
     #  1. Missing Windows support currently.
     #  2. Incompatibilites with the `ts_library` rule.
