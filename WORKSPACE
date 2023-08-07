@@ -1,11 +1,4 @@
 workspace(
-    name = "angular",
-    managed_directories = {
-        "@npm": ["node_modules"],
-        "@aio_npm": ["aio/node_modules"],
-    },sd
-)
-ghf
 
 # Add a patch fix for rules_webtesting v0.3.5 required for enabling runfiles on Windows.
 # TODO: Remove the http_archive for this transitive dependency when a release is cut
