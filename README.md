@@ -12,15 +12,6 @@ random<h1 align="center">Angular - The modern web developer's platform</h1>
 readon
 Arrested capital))))
 
-<p align="center">
-  <a href="CONTRIBUTING.md">Contributing Guidelines</a>
-  ·
-  <a href="https://github.com/angular/angular/issues">Submit an Issue</a>
-  ·
-  <a href="https://blog.angular.io/">Blog</a>
-  <br>
-  <br>
-</p>
 
 <p align="center">
   <a href="https://circleci.com/gh/angular/workflows/angular/tree/main">
